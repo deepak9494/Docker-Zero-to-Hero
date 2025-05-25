@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'examples/python-web-app/**'
+      workflow_dispatch:
 
 jobs:
   docker-build-and-push:
