@@ -6,7 +6,8 @@ on:
       - main
     paths:
       - 'examples/python-web-app/**'
-      workflow_dispatch:
+
+  workflow_dispatch:  # ✅ This enables manual triggering from the GitHub UI
 
 jobs:
   docker-build-and-push:
